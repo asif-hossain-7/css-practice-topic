@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Backgrounds</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    
+        /* BACKGROUND COLOR */
+        p{
+            width: 100%;
+            color: springgreen;
+            background-color: blue;
+            text-align: center;
+            padding: 20px 0px;
+            align-self: center;
+            border-style: dotted dashed solid double;
+        }
+    
+        /* BACKGROUND */
+        .banner{
+            display: flex;
+            height: 90vh;
+            /* background-image: url(./images/bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; */
+    
+    
+            /* BACKGROUND IMAGE SHORTHAND */
+            background: url(../images/bg.jpg) no-repeat fixed center;
+    
+            /* BORDER */
+    
+            /* border-style: dashed; */
+            /* border-style: dotted; */
+            /* border-style: solid; */
+            /* border-style: double; */
+            /* border-style:groove ; */
+            /* border-style:ridge ; */
+            /* border-style: inset; */
+            /* border-style: outset; */
+            /* border-style: none; */
+            /* border-style: hidden; */        
+    
+            border-block-width: 40px;
+            border-block-style: solid;
+            border-block-color: red  green;
+        }
+    
+    
+    </style>
+</head>
+
+<body>
+    
+    <div class="banner">
+        <p>My CSS practice paragraph!</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
